@@ -1,5 +1,6 @@
 import rclpy
 from rclpy.node import Node
+from std_msgs.msg import String
 
 
 class M_pub(Node):
@@ -7,10 +8,14 @@ class M_pub(Node):
         super().__init__("massage_pub")  # 노드 이름
         # timer 등록
         self.create_timer(1, self.timer_callback)
+        self.pub = self.create_publisher(String, "message", 10)
         self.count = 0
 
     def timer_callback(self):
-        self.get_logger().info(f"첫번째 프로그램입니다. {self.count}")
+        msg = String()  # DDS 에 보낼 객체 초기화
+        msg.data = f"첫번째 프로그램입니다. {self.count}"  # data 를 입력
+        self.get_logger().info(msg.data)
+        self.pub.publish(msg)  # DDS 로 보내는 기능 수행
         self.count += 1
 
 
