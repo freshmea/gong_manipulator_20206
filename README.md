@@ -22,7 +22,22 @@
   - interface: proto
 - rqt 실습: rqt_graph, topic monitor,
 
-```shell
+```bash
 ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
 
 ```
+
+---
+
+# 2026-07-21
+
+---
+
+- 1교시: 복습, ros2 common package
+- 2교시: 중요 컨셉(DDS, node spin, state)
+- 3교시: RMW architecture
+- 4교시: Node, Topic, Service, Action 개념
+- 5교시: 패키지 작성 ( ros2 pkg create)
+- 6교시: simple node 작성(publisher, subscriber)
+- 7교시:
+- 8교시:

@@ -26,6 +26,7 @@ setup(
             "simple_pub = gong_basic.simple_pub:main",
             "class_pub = gong_basic.class_pub:main",
             "class_sub = gong_basic.class_sub:main",
+            "header_pub = gong_basic.header_pub:main",
         ],
     },
 )
