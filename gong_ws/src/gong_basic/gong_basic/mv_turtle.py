@@ -16,6 +16,8 @@ class Move_tutle(Node):
         msg.linear.x = 0.0 + self.count
         msg.angular.z = 1.0
         self.pub.publish(msg)  # DDS 로 보내는 기능 수행
+        # AI 활용해서 msg 재미 있게 움직이도록 수정
+        # 별표로 움직이기 지그재그로 움직이기 ...
         self.count += 0.01
         if self.count > 3.0:
             self.count = 0.0
