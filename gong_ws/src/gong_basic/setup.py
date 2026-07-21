@@ -36,6 +36,7 @@ setup(
             "msub = gong_basic.msub:main",
             "m2sub = gong_basic.m2sub:main",
             "mtsub = gong_basic.mtsub:main",
+            "mv_turtle = gong_basic.mv_turtle:main",
         ],
     },
 )
