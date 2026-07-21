@@ -31,6 +31,11 @@ setup(
             "class_pub = gong_basic.class_pub:main",
             "class_sub = gong_basic.class_sub:main",
             "header_pub = gong_basic.header_pub:main",
+            "mpub = gong_basic.mpub:main",
+            "tpub = gong_basic.tpub:main",
+            "msub = gong_basic.msub:main",
+            "m2sub = gong_basic.m2sub:main",
+            "mtsub = gong_basic.mtsub:main",
         ],
     },
 )
