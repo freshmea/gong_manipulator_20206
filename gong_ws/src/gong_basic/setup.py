@@ -43,6 +43,7 @@ setup(
             "service_server = gong_basic.service_server:main",
             "service_thread_server = gong_basic.service_thread_server:main",
             "service_client = gong_basic.service_client:main",
+            "my_param = gong_basic.my_param:main",
         ],
     },
 )

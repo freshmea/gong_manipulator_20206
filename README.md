@@ -54,7 +54,7 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 - 3교시: interface 정의, msg, srv 작성
 - 4교시: service thread server 작성
 - 5교시: service client 작성()
-- 6교시:
+- 6교시: parameter
 - 7교시:
 - 8교시:
 
