@@ -44,6 +44,7 @@ setup(
             "service_thread_server = gong_basic.service_thread_server:main",
             "service_client = gong_basic.service_client:main",
             "my_param = gong_basic.my_param:main",
+            "param_async = gong_basic.param_async:main",
         ],
     },
 )
