@@ -1,6 +1,7 @@
 # ros2 run gong_basic my_param
 # ros2 launch gong_basic param.launch.py
 # ros2 launch gong_basic param.launch.py param_dir:=my_param2.yaml
+# ros2 param dump tparam > temp.yaml
 
 import os
 
