@@ -5,7 +5,7 @@
 
 ---
 
-# 2026-07-20
+## 2026-07-20
 
 ---
 
@@ -30,7 +30,7 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 
 ---
 
-# 2026-07-21
+## 2026-07-21
 
 ---
 
@@ -45,15 +45,20 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 
 ---
 
-# 2026-07-22
+## 2026-07-22
 
 ---
 
 - 1교시: 복습
-- 2교시:
+- 2교시: DDS wsl 에서 설정해야 할 내용 설명
 - 3교시: interface 정의, msg, srv 작성
-- 4교시:
-- 5교시:
+- 4교시: service thread server 작성
+- 5교시: service client 작성()
 - 6교시:
 - 7교시:
 - 8교시:
+
+## 추가 해야 할 작업
+- service 교안 부재
+- action 교안 부재
+- launch 교안 부재
