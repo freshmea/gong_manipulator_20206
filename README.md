@@ -1,6 +1,7 @@
 # gong_manipulator_20206
 - 로보티즈의 매니퓰레이터를 실습하는 수업
 - [교육생공유슬라이드](https://docs.google.com/presentation/d/1u1cTo7-lzOgn1OTffYmj8k5heEegl7OFczK4jscYZt8/edit?usp=sharing)
+- [사전사후평가](https://forms.gle/8AmhKaho7VugqqrDA)
 
 ---
 
@@ -39,5 +40,5 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 - 4교시: Node, Topic, Service, Action 개념
 - 5교시: 패키지 작성 ( ros2 pkg create)
 - 6교시: simple node 작성(publisher, subscriber)
-- 7교시:
-- 8교시:
+- 7교시: Header class time pub 작성, 5개 노드 실습
+- 8교시: 터틀심 움직이기
