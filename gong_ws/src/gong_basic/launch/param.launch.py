@@ -1,3 +1,7 @@
+# ros2 run gong_basic my_param
+# ros2 launch gong_basic param.launch.py
+# ros2 launch gong_basic param.launch.py param_dir:=my_param2.yaml
+
 import os
 
 from ament_index_python import get_package_share_directory
