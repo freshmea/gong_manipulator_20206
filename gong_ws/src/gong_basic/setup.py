@@ -41,6 +41,7 @@ setup(
             "qos_test_sub = gong_basic.qos_test_sub:main",
             "user_int_pub = gong_basic.user_int_pub:main",
             "service_server = gong_basic.service_server:main",
+            "service_thread_server = gong_basic.service_thread_server:main",
         ],
     },
 )
