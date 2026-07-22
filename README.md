@@ -42,3 +42,18 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 - 6교시: simple node 작성(publisher, subscriber)
 - 7교시: Header class time pub 작성, 5개 노드 실습
 - 8교시: 터틀심 움직이기
+
+---
+
+# 2026-07-22
+
+---
+
+- 1교시: 복습
+- 2교시:
+- 3교시: interface 정의, msg, srv 작성
+- 4교시:
+- 5교시:
+- 6교시:
+- 7교시:
+- 8교시:
