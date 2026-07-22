@@ -6,7 +6,7 @@ from rclpy.parameter_client import AsyncParameterClient
 
 class ParamAsync(Node):
     def __init__(self):
-        super().__init__("tparam")  # 노드 이름
+        super().__init__("tparamAsync")  # 노드 이름
         # timer 등록
         self.target_node_name = "/tparam"
         self.parameter_client = AsyncParameterClient(self, self.target_node_name)
