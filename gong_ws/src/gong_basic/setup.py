@@ -39,6 +39,7 @@ setup(
             "mv_turtle = gong_basic.mv_turtle:main",
             "qos_test_pub = gong_basic.qos_test_pub:main",
             "qos_test_sub = gong_basic.qos_test_sub:main",
+            "user_int_pub = gong_basic.user_int_pub:main",
         ],
     },
 )
