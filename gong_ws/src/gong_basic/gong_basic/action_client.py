@@ -49,7 +49,7 @@ class Action_client(Node):
         self.get_logger().info(f"{list(feedback.temp_seq)}")
 
     def get_result_callback(self, future: Future):
-        result: Fibonacci_GetResult_Response = future.result()  # type : ignore
+        result: Fibonacci_GetResult_Response = future.result()  # type: ignore
         if result.status == GoalStatus.STATUS_SUCCEEDED:
             self.get_logger().info(f"result: {list(result.result.seq)}")
         if result.status == GoalStatus.STATUS_ABORTED:
