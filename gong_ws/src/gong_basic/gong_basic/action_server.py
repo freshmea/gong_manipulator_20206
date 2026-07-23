@@ -1,6 +1,7 @@
 import time
 
 import rclpy
+from action_msgs.msg import GoalStatus
 from rclpy.action import ActionServer
 from rclpy.action.server import ServerGoalHandle
 from rclpy.node import Node
@@ -16,6 +17,9 @@ class Action_server(Node):
 
     def execute_callback(self, goal_handle: ServerGoalHandle):
         self.get_logger().info(f"{goal_handle.status}")
+        self.get_logger().info(f"GoalStatus.STATUS_EXECUTING{GoalStatus.STATUS_EXECUTING}")
+        if goal_handle.status == GoalStatus.STATUS_EXECUTING:
+            self.get_logger().info("현재 실행 중입니다.")
         goal: Fibonacci.Goal = goal_handle.request
         step = goal.step
         feedback_msg = Fibonacci.Feedback()
@@ -24,6 +28,7 @@ class Action_server(Node):
             feedback_msg.temp_seq.append(feedback_msg.temp_seq[i] + feedback_msg.temp_seq[i - 1])
             goal_handle.publish_feedback(feedback_msg)
             self.get_logger().info(f"{goal_handle.status}")
+            time.sleep(1)
         goal_handle.succeed()
         self.get_logger().info(f"{goal_handle.status}")
         result = Fibonacci.Result()
