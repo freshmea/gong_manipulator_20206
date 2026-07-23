@@ -38,6 +38,7 @@ setup(
             "m2sub = gong_basic.m2sub:main",
             "mtsub = gong_basic.mtsub:main",
             "mv_turtle = gong_basic.mv_turtle:main",
+            "mv_turtle_ns = gong_basic.mv_turtle_ns:main",
             "qos_test_pub = gong_basic.qos_test_pub:main",
             "qos_test_sub = gong_basic.qos_test_sub:main",
             "user_int_pub = gong_basic.user_int_pub:main",
