@@ -1,6 +1,7 @@
 # gong_manipulator_20206
 - 로보티즈의 매니퓰레이터를 실습하는 수업
 - [교육생공유슬라이드](https://docs.google.com/presentation/d/1u1cTo7-lzOgn1OTffYmj8k5heEegl7OFczK4jscYZt8/edit?usp=sharing)
+- [figma 수업자료](https://www.figma.com/board/0D2JCa1DB0eAV3bslSQIiS/gong_manipulator_20206?node-id=0-1&t=y2PgePJHPb9SdQ8G-1)
 - [사전사후평가](https://forms.gle/8AmhKaho7VugqqrDA)
 
 ---
@@ -54,7 +55,22 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 - 3교시: interface 정의, msg, srv 작성
 - 4교시: service thread server 작성
 - 5교시: service client 작성()
-- 6교시: parameter
+- 6교시: parameter (add_on_set_parameter_callback)
+- 7교시: 외부 노드에서 parameter 변경 AsyncParameterClient
+- 8교시: launch 에서의 parameter 설정 Node(parameters=[])
+
+---
+
+## 2026-07-23
+
+---
+
+- 1교시: 복습
+- 2교시:
+- 3교시:
+- 4교시:
+- 5교시:
+- 6교시:
 - 7교시:
 - 8교시:
 
