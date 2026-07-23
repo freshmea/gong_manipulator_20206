@@ -66,15 +66,16 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 ---
 
 - 1교시: 복습
-- 2교시:
-- 3교시:
-- 4교시:
-- 5교시:
-- 6교시:
-- 7교시:
-- 8교시:
+- 2교시: action interface 정의, action IDL fibonacci 작성
+- 3교시: topic, service, action 의 차이점
+- 4교시: action server 작성, action client 작성
+- 5교시: action thread server 작성( cancel, abort 구현)
+- 6교시: namespace 적용 launch 작성
+- 7교시: static tf 발행
+- 8교시: dynamic tf 발행
 
 ## 추가 해야 할 작업
 - service 교안 부재
 - action 교안 부재
 - launch 교안 부재
+- tf 교안 부재
