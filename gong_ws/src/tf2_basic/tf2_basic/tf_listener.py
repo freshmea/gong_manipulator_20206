@@ -1,3 +1,10 @@
+# ros2 run turtlesim turtlesim_node
+# rviz2
+# ros2 run tf2_basic dynamic_turtle_tf2_broadcaster
+# ros2 run tf2_basic tf_listener
+# ros2 run tf2_basic static_turtle_tf2_broadcaster
+# ros2 run turtlesim turtle_teleop_key
+
 import rclpy
 from geometry_msgs.msg import TransformStamped
 from rclpy.node import Node
