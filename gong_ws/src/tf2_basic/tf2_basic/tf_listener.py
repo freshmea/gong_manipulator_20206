@@ -4,6 +4,8 @@
 # ros2 run tf2_basic tf_listener
 # ros2 run tf2_basic static_turtle_tf2_broadcaster
 # ros2 run turtlesim turtle_teleop_key
+# sudo apt install ros-jazzy-rqt-tf-tree
+# ros2 run rqt_tf_tree rqt_tf_tree --force-discover
 
 import rclpy
 from geometry_msgs.msg import TransformStamped
