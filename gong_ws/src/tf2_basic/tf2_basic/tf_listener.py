@@ -7,6 +7,7 @@
 
 import rclpy
 from geometry_msgs.msg import TransformStamped
+from rclpy.duration import Duration
 from rclpy.node import Node
 from rclpy.time import Time
 from tf2_ros.buffer import Buffer
@@ -27,13 +28,10 @@ class M_pub(Node):
         self.create_timer(1.0, self.timer_callback)
 
     def timer_callback(self):
-        try:
-            t: TransformStamped = self.tf_buffer.lookup_transform(
-                self.target_frame, self.source_frame, Time()
-            )
-            self.get_logger().info(f"{t}")
-        except:
-            pass
+        t: TransformStamped = self.tf_buffer.lookup_transform(
+            self.target_frame, self.source_frame, Time(), timeout=Duration(seconds=1.0)
+        )
+        self.get_logger().info(f"{t}")
 
 
 def main(args=None):
