@@ -74,6 +74,21 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 - 7교시: static tf 발행
 - 8교시: dynamic tf 발행
 
+---
+
+## 2026-07-24
+
+---
+
+- 1교시: 복습
+- 2교시:
+- 3교시:
+- 4교시:
+- 5교시:
+- 6교시:
+- 7교시:
+- 8교시:
+
 ## 추가 해야 할 작업
 - service 교안 부재
 - action 교안 부재
