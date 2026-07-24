@@ -6,7 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /RobotModel1
-        - /RobotModel1/Status1
         - /TF1
         - /TF1/Frames1
       Splitter Ratio: 0.5
@@ -50,7 +49,7 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: true
-    - Alpha: 1
+    - Alpha: 0.6000000238418579
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
       Description File: ""
@@ -73,6 +72,16 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        left_leg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_leg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Mass Properties:
         Inertia: false
         Mass: false
@@ -88,13 +97,23 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        base_link:
+          Value: true
+        left_leg:
+          Value: true
+        right_leg:
+          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: true
       Tree:
-        {}
+        base_link:
+          left_leg:
+            {}
+          right_leg:
+            {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -158,10 +177,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4553978145122528
+      Pitch: 0.0853981152176857
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.9453974962234497
+      Yaw: 6.168583393096924
     Saved: ~
 Window Geometry:
   Displays:
@@ -179,5 +198,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1268
-  X: 2472
-  Y: 64
+  X: 2376
+  Y: 35
