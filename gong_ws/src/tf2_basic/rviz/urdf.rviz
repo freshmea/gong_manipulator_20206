@@ -6,6 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /RobotModel1
+        - /RobotModel1/Status1
         - /TF1
         - /TF1/Frames1
       Splitter Ratio: 0.5
@@ -178,5 +179,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1268
-  X: 2528
-  Y: -32
+  X: 2472
+  Y: 64
