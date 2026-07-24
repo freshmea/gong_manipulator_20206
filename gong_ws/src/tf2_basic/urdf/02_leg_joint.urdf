@@ -1,5 +1,5 @@
-<!-- ros2 launch tf2_basic urdf_display.launch.py model:=urdf/02_leg_joint.urdf -->
 <?xml version="1.0"?>
+<!-- ros2 launch tf2_basic urdf_display.launch.py model:=urdf/02_leg_joint.urdf -->
 <robot name="myfirst">
     <link name="base_link">
         <visual>
