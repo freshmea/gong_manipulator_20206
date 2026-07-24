@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!-- xacro 파일 참고 하세요. AI에게 이런 형식으로 요청 -->
 <robot name="macroed" xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:property name="width" value="0.2" />
