@@ -7,6 +7,7 @@
 # turtle spawn 은 service 코드 쓰세요.
 # timer 는 1.0 간격으로 회전과 정지 직진을  tf look-up 정보로 구현
 # turtle1 turtle2 tf 모두 발행!!
+# ros2 run tf2_basic dynamic_turtle_tf2_broadcaster --ros-args -p turtle_name:=turtle2
 
 import math
 
